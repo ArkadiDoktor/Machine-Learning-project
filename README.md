@@ -4,7 +4,7 @@ A machine learning project using the California Housing dataset with 20640 insta
 
 ## Overview
 
-This notebook trains and evaluates different regression models and choosing the model with the highest success rate using the following steps:
+This notebook trains and evaluates different regression models and chooses the model with the highest success rate using the following steps:
 
 1. **Feature Engineering**
    - Created new ratio-based features
@@ -12,7 +12,7 @@ This notebook trains and evaluates different regression models and choosing the 
    - Scaled area density and added clustering labels
 
 2. **Target Transformation**
-   - Applied log transformation to the target (`MedHouseVal`) to reduce skew
+   - Applied log transformation to the target (`MedHouseVal`) to reduce skew (the uneven distribution of data)
 
 3. **Hyperparameter Tuning**
    - Tuned models using `GridSearchCV` and cross-validation
